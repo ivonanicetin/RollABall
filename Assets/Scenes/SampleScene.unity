@@ -221,8 +221,8 @@ Transform:
   m_GameObject: {fileID: 65184187}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.02, y: 0.5, z: -4.61}
-  m_LocalScale: {x: 9, y: 1, z: 1}
+  m_LocalPosition: {x: 0.02, y: 1, z: -4.59}
+  m_LocalScale: {x: 9.2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -422,13 +422,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.24771303, y: -0.0023617116, z: -0.0016680992, w: 0.9688292}
-  m_LocalPosition: {x: 0.059, y: 5.283, z: -9}
+  m_LocalRotation: {x: 0.37205163, y: -0.0025592376, z: -0.001345562, w: 0.9282076}
+  m_LocalPosition: {x: 0.06901483, y: 8.5424185, z: -7.844151}
   m_LocalScale: {x: 4.9586453, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 28.684, y: -0.353, z: -0.288}
+  m_LocalEulerAnglesHint: {x: 43.684, y: -0.456, z: -0.349}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -745,6 +745,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sphereRigidbody: {fileID: 414048353}
   ballSpeed: 2
+  jumpForce: 5
+  isGrounded: 0
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,8 +898,8 @@ Transform:
   m_GameObject: {fileID: 941620861}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.49, y: 0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 10.2}
+  m_LocalPosition: {x: -4.49, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 2, z: 10.18}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1004,8 +1006,8 @@ Transform:
   m_GameObject: {fileID: 1163364840}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.57, y: 0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 10.2}
+  m_LocalPosition: {x: 4.57, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 2, z: 10.18}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1112,8 +1114,8 @@ Transform:
   m_GameObject: {fileID: 1917210609}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.02, y: 0.5, z: 4.59}
-  m_LocalScale: {x: 9, y: 1, z: 1}
+  m_LocalPosition: {x: 0.02, y: 1, z: 4.59}
+  m_LocalScale: {x: 9.2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
