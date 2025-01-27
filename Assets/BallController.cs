@@ -49,6 +49,7 @@ public class BallController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             sphereRigidbody.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            Debug.Log("The ball has jumped!");
         }
     }
 }
